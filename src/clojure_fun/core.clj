@@ -1,6 +1,6 @@
 (ns clojure-fun.core)
 
-(defn foo
-  "I don't do a whole lot."
-  [x]
-  (println x "Hello, World!"))
+(defn sum
+  "Adds x and y"
+  [x y]
+  (+ x y))
